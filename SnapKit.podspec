@@ -14,5 +14,7 @@ Pod::Spec.new do |s|
 
   s.source_files = 'Source/*.swift'
 
+  s.static_framework = true
+  
   s.swift_version = '4.2'
 end
